@@ -1,0 +1,153 @@
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), url("../font/static/Inter-Black.ttf") format("opentype"), url("../font/static/Inter-Regular.ttf") format("opentype"),
+    url("../font/static/Inter-SemiBold.ttf") format("opentype");
+}
+@font-face {
+  font-family: "Sans";
+  src: local("Inter"), url("../font/static/Inter-Black.ttf") format("opentype"), url("../font/static/Inter-Regular.ttf") format("opentype"),
+    url("../font/static/Inter-SemiBold.ttf") format("opentype");
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+/* ================ */
+.black_fon {
+  background-color: #2a2a2a;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+/* ==================== */
+.wrapperna {
+  display: flex;
+  width: 1140px;
+  height: 47px;
+  justify-content: space-between;
+  /* flex-direction: row; */
+  /* background-color: black; */
+  color: #fff;
+}
+.info_block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* Внимание на тег========================== */
+.icon_email {
+  margin: 0 5px 0 0;
+  height: 24px;
+}
+.info_block p {
+  padding-right: 10px;
+}
+/* ================== */
+.social_block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.social_info {
+  margin-right: 30px;
+}
+.social_info a {
+  margin: 0px 5px 0px 5px;
+  padding: 0px 5px 0px 5px;
+}
+
+.lang_auto {
+  display: flex;
+  width: 230px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.language {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 102px;
+  height: 18px;
+}
+.language_list option {
+  color: black;
+}
+.authorization {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 75px;
+  height: 24px;
+}
+.authorization img {
+  width: 16px;
+  height: 16px;
+}
+.authorization a :active {
+  color: #7fad39;
+}
+.authorization a {
+  color: #fff;
+}
+
+/*  */
+.menu_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1140px;
+  height: 80px;
+}
+.logo {
+  font-size: 36px;
+  line-height: 40px;
+  font-family: "Inter", sans-serif;
+  color: #2a2a2a;
+
+  text-shadow: 0px 6px 5px rgba(42, 42, 42, 0.25);
+  margin-left: 20px;
+}
+
+.logo a {
+  color: black;
+}
+.nav_menu {
+  display: flex;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.nav_menu_list {
+  display: flex;
+  flex-direction: row;
+  color: #2a2a2a;
+  line-height: 19.18px;
+}
+.nav_menu_obj {
+  padding: 0px 20px 0px 20px;
+}
+ul .nav_menu_obj a {
+  color: black;
+}
+#active a {
+  color: #7fad39;
+}
+.nav_menu_list_item {
+  display: flex;
+
+  justify-content: end;
+}
+.nav_menu_item {
+  margin: 0px 5px 0px 5px;
+}
+.nav_menu_item_block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10px;
+}
